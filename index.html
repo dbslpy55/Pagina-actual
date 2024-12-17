@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body{
+            background-color: aqua;
+            margin: 0;
+        }
+        @media (max-width: 600px) { /*css para movil */
+            body{
+                background-color: greenyellow;
+            }
+            h1{
+                font-size: 4em;
+                font-family: Arial, Helvetica, sans-serif;
+                color: yellow;
+            }
+            nav{
+                display: block;
+            }
+            nav a{
+                display: block;
+                text-align: center;
+            }/*acaba css para movil */
+        }
+        @media (min-width: 601px) and (max-width: 880px){
+            body{
+                background-color: orange;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            background-color: brown;
+            padding: 15px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        nav a hover{
+            color: yellow; font-weight: bold;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Instalaciones Bosco</h1>
+    </header>
+    <nav>
+        <a href="#">Quienes somos</a>
+        <a href="#">Donde estamos</a>
+        <a href="#">Contactos</a>
+        <a href="#">Nuestros Clientes</a>
+    </nav>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
